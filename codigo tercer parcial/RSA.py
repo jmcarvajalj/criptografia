@@ -14,7 +14,7 @@ print ("No of bits in prime is ",bits)
 #p=47
 p=Crypto.Util.number.getPrime(bits, randfunc=Crypto.Random.get_random_bytes)
 print ("\nRandom n-bit Prime (p): ",p)
-#Importante aca se puede cambiar para que e sea un numero arbitrario
+#Importante aca se puede cambiar para que q sea un numero arbitrario
 #q=71
 q=Crypto.Util.number.getPrime(bits, randfunc=Crypto.Random.get_random_bytes)
 print ("\nRandom n-bit Prime (q): ",q)
